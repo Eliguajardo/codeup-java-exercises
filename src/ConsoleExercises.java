@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class ConsoleExercises {
     public static void main(String[] args) {
-        double pi = 3.14159;
-        System.out.println("Pi is equal to " + pi);
-        System.out.println("double : " + String.format("%.2f", pi));
+//        double pi = 3.14159;
+//        System.out.println("Pi is equal to " + pi);
+//        System.out.println("double : " + String.format("%.2f", pi));
 
 //        Scanner scanner = new Scanner(System.in);// this allows scanner class to work with input
 //
@@ -17,6 +17,15 @@ public class ConsoleExercises {
 //
 //        System.out.println(userInput); // output of what entered or calculate
 
+        String Vatos = "Vatos";
+        String Locos = "Locos";
+        String forever = "Forever";
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter something: ");
+        Vatos = scanner.next();
+        Locos = scanner.next();
+        forever = scanner.next();
+        System.out.println("You entered: --> \"" + Vatos + Locos + forever + "\" <---");
     }
 }
