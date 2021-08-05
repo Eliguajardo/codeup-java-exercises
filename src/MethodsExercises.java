@@ -147,26 +147,26 @@ public class MethodsExercises {
     public static void main(String[] args){
 
         //1 Arithmetic
-//        System.out.println("----Exercise 1: Arithmetic----");
-//        System.out.println(addition(5, 5));
-//        System.out.println(subtraction(5, 5));
-//        System.out.println(multiplication(5, 5));
-//        System.out.println(division(5, 5));
-//        System.out.println(modulus(5, 5));
+        System.out.println("----Exercise 1: Arithmetic----");
+        System.out.println(addition(5, 5));
+        System.out.println(subtraction(5, 5));
+        System.out.println(multiplication(5, 5));
+        System.out.println(division(5, 5));
+        System.out.println(modulus(5, 5));
 
 
-        //2 Validates user input is in a Certain range
-//        System.out.println("----Exercise 2: Validate Range----");
-//        System.out.println("Success!" + getInteger(1, 15) + "is within range!");
+       // 2 Validates user input is in a Certain range
+        System.out.println("----Exercise 2: Validate Range----");
+        System.out.println("Success!" + getInteger(1, 15) + "is within range!");
 
 
         //3 Factorial
-//        System.out.println("----Exercise 3: Factorial----");
-//        askFactorial();
+        System.out.println("----Exercise 3: Factorial----");
+        askFactorial();
 
 
-        //4 Roll Dice
-//        System.out.println("----Exercise 4: Dice----");
-//        confirmDice();
+       // 4 Roll Dice
+        System.out.println("----Exercise 4: Dice----");
+        confirmDice();
     }
 }
