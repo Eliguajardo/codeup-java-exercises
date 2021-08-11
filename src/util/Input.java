@@ -36,7 +36,7 @@ public class Input {
         int userInt = keyboardInput.nextInt();
 
         if (userInt < min || userInt > max) {
-            System.out.println("Try again!");
+            System.out.println("Invalid input! Try again!");
             return getInt(min, max);
         } else {
             System.out.println("That's a valid integer");
